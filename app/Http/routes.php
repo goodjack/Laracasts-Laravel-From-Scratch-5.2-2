@@ -19,3 +19,5 @@ Route::auth();
 
 Route::get('/dashboard', 'HomeController@index');
 // Route::get('/home', 'HomeController@index')->middleware('auth');
+
+Route::get('/cards', 'CardsController@index');
