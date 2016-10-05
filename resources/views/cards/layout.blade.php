@@ -10,6 +10,12 @@
         <!-- Bootstrap Material Design -->
         <link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
 
+        <style type="text/css">
+            .no-margin{
+                margin-bottom:0px;
+            }
+        </style>
+
         @yield('header')
 
     </head>
@@ -18,7 +24,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                      Money101
+                      Card101
                     </a>
                     <ul class="nav navbar-nav">
                         <li class="nav-item active">
@@ -39,7 +45,7 @@
         </nav>
 	    @yield('content')
 
-    	@yield('footer')
+    	@extends('cards.footer')
 
         <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
         <script src="https://cdn.rawgit.com/HubSpot/tether/v1.3.4/dist/js/tether.min.js"></script>

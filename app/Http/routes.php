@@ -21,3 +21,5 @@ Route::get('/dashboard', 'HomeController@index');
 // Route::get('/home', 'HomeController@index')->middleware('auth');
 
 Route::get('/cards', 'CardsController@index');
+Route::get('/cards/create', 'CardsController@create');
+Route::get('/cards/stores/{store}', 'CardsController@store');

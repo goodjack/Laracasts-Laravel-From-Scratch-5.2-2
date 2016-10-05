@@ -1,10 +1,10 @@
 @extends('cards.layout')
 
 @section('content')
-	<div class="jumbotron jumbotron-fluid" style="color:white; background-color: #135072; margin-bottom:0px;">
+	<div class="jumbotron jumbotron-fluid no-margin" style="color:white; background-color: #135072;">
 		<div class="container">
-			<h1 class="display-2">尋找信用卡 - 精選推薦</h1>
-			<p class="lead">Money101.com.tw 精選推薦生活各面向中，可以給您最好回饋的信用卡，立刻就來比較現金回饋、旅遊禮遇、購物折扣中，最符合您消費習慣的信用卡吧！</p>
+			<h1 class="display-2">尋找信用卡 - 編輯精選</h1>
+			<p class="lead">立即從以下優惠中找出最適合你的信用卡吧！</p>
 			<p><a class="btn btn-raised btn-warning btn-lg" href="#" role="button">挑選信用卡</a></p>
 		</div>
 	</div>

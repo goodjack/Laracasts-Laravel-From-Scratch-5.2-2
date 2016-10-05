@@ -12,4 +12,14 @@ class CardsController extends Controller
     {
         return view('cards.index');
     }
+
+    public function create()
+    {
+        return view('cards.create');
+    }
+
+    public function store($id)
+    {
+        return view('cards.store', compact('id'));
+    }
 }
