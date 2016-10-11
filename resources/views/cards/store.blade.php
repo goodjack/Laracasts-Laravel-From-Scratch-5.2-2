@@ -1,13 +1,13 @@
 @extends('cards.layout')
 
 @section('content')
-	<div class="jumbotron jumbotron-fluid" style="color:white; background-color: #135072; padding: 0rem">
+	<div class="jumbotron jumbotron-fluid" style="color:white; background-color: #135072; padding-bottom: 0rem;padding-top: 8rem;">
 		<div class="container">
 			<div class="row">
 			    <div class="col-lg-3">
 				</div>
 				<div class="col-lg-9">
-					<h1 class="display-2"><br><br><br>全家便利商店</h1>
+					<h1 class="display-2">全家便利商店</h1>
 					<p class="lead">第 {{$id}} 家商店，以下是有關此商店的優惠</p>
 				</div>
 			</div>
