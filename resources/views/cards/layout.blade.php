@@ -10,12 +10,6 @@
         <!-- Bootstrap Material Design -->
         <link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
 
-        <style type="text/css">
-            .no-margin{
-                margin-bottom:0px;
-            }
-        </style>
-
         @yield('header')
 
     </head>

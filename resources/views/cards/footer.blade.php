@@ -1,5 +1,5 @@
 <footer class="text-muted">
-    <div class="jumbotron jumbotron-fluid no-margin">
+    <div class="jumbotron jumbotron-fluid m-b-0">
         <div class="container">
             <p>
                 <a href="#">服務條款</a> <a href="#">隱私政策</a> <a href="#">網站地圖</a> <a href="#">徵才資訊</a>

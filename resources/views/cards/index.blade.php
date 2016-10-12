@@ -1,7 +1,7 @@
 @extends('cards.layout')
 
 @section('content')
-	<div class="jumbotron jumbotron-fluid no-margin" style="color:white; background-color: #135072;">
+	<div class="jumbotron jumbotron-fluid m-b-0" style="color:white; background-color: #135072;">
 		<div class="container">
 			<h1 class="display-2">尋找信用卡 - 編輯精選</h1>
 			<p class="lead">立即從以下優惠中找出最適合你的信用卡吧！</p>
